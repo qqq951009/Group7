@@ -64,7 +64,7 @@ print("done")
 
 #顯示圖片
 
-toImage = Image.new('RGB', (128,80),(228,255,255))
+toImage = Image.new('RGB', (128,64),(255,255,255))
 img1 = Image.open(img_arr[0])
 img12 = Image.open(img_arr[1])
 img1 = img1.resize((64, 64),Image.ANTIALIAS)
